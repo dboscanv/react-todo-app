@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './Counter';
-import App from './App';
 import './index.css';
+import Lista from "./Lista";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
 ReactDOM.render(
-  <App counter={new Counter()} />,
+  <Lista/>,
   document.getElementById('root')
 );
